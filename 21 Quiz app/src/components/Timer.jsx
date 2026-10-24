@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 const Timer = ({ setIsOver }) => {
 
-    const [leftTime, setLeftTime] = useState(20);
+    const [leftTime, setLeftTime] = useState(30);
     const [displayTime, setDisplayTime] = useState('')
 
     // left time logic
